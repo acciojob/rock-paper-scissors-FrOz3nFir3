@@ -1,2 +1,24 @@
+body{
+    padding: 1.5em;
+}
 
-/* Your CSS Code here. */
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container > * {
+    margin-top: 1em;
+}
+
+button{
+    background: gold;
+    border: none;
+    cursor: pointer;
+    margin: 1em;
+    padding: 1em 3em;
+}
+
+button:hover{
+    opacity: .7;
+}
